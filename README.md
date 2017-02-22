@@ -104,11 +104,8 @@ Executables and arguments for all available cores:
 		  
 ## Known issues
 
-<<<<<<< HEAD
-- Nintendo 64 and CP System II save-states are not working, battery backups work fine. 
-=======
 - Nintendo 64 and CP System II save-states are not working, battery backups work fine
->>>>>>> c4740d7... FDS BIOS is now copied to RetroArch system dir during installation.
+- FDS BIOS is now copied to RetroArch system dir during installation.
 - Default CRT filter is not working, scanlines shader added instead but it's not working with all systems.
 - It's recommended to turn your NES Mini off from shell, not during the game
 
