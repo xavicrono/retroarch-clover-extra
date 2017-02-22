@@ -35,7 +35,7 @@ Extra RetroArch modules and modules created by other users (in core_modules_extr
 
 1. Go to "releases" tab and download the newest release.zip 
 2. Unpack release.zip anywhere you want
-3. Copy retroarch.hmod and the cores you want (.hmod files from core_modules and core_modules_extra folders) to user_mods directory of Hakchi2.
+3. Copy retroarch.hmod and the cores you want (.hmod files from cores and extra_cores folders) to user_mods directory of Hakchi2.
 4. Install the modules (all modules can be installed in one go) via Hakchi2's Modules menu.
 5. Add the games as usual
 
