@@ -25,7 +25,7 @@ Extra RetroArch modules and modules created by other users (in core_modules_extr
 - caprice32 (Amstrad CPC), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
 - fbalpha2012_neogeo (Neo-Geo), provided by 1lokolo1/nesito
 - fuse (ZX Spectrum), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
-- doxbox (MS-DOS), provided by 1lokolo1/nesito  and asper
+- dosbox (MS-DOS), provided by 1lokolo1/nesito  and asper
 - mame2000 (various arcades machines), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
 - mame2003 (various arcades machines), provided by asper
 - mednafen_ngp (Neo Geo Pocket), provided by asper
