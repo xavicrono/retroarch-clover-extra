@@ -21,13 +21,15 @@ The following cores are available as additional modules (in core_modules folder)
 
 Extra RetroArch modules and modules created by other users (in core_modules_extra folder):
 - mupen64plus (Nintendo 64)
-- caprice32 (Amstrad CPC), provided by 1lokolo1/nesito
+- snes9x2005 (Super Famicom/Super Nintendo)
+- caprice32 (Amstrad CPC), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
 - fbalpha2012_neogeo (Neo-Geo), provided by 1lokolo1/nesito
-- fuse (ZX Spectrum), provided by 1lokolo1/nesito
+- fuse (ZX Spectrum), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
 - doxbox (MS-DOS), provided by 1lokolo1/nesito  and asper
-- mame2000 (various arcades machines), provided by 1lokolo1/nesito
+- mame2000 (various arcades machines), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
 - mame2003 (various arcades machines), provided by asper
 - mednafen_ngp (Neo Geo Pocket), provided by asper
+
 
 ## How to use this
 
@@ -44,6 +46,7 @@ Please note:
 - To use RetroArch for any NES game, just add "--retroarch" to command line arguments
 - To use Nestopia instead of FCEUmm, install use_nestopia.hmod module
 - To use PicoDrive for all Genesis/Mega Drive games instead of Genesis Plus GX, install use_picodrive.hmod module. Make sure that picodrive module is installed before installing use_picodrive!
+- To use SNES9x2005 for all SNES games instead of SNES9x2010, install use_snes9x2005.hmod module. Make sure that snes9x2005 module is installed before installing use_snes9x2005!
 - You can re-enable bilinear filtering in RetroArch's settings (Settings —> Video —> Bilinear Filtering)
 
 ## Additional information
@@ -75,7 +78,11 @@ Executables and arguments for all available cores:
         - /bin/32x <rom> <clover_args>
           runs "picodrive" core
         - /bin/snes <rom> <clover_args>
-          runs "snes9x2010" core
+          runs "snes9x2010" core or "snes9x2005" core
+        - /bin/snes05 <rom> <clover_args>
+          runs "snes9x2005" core
+        - /bin/snes10 <rom> <clover_args>
+          runs "snes9x2010" core if snes9x2005 is installed as a main core
         - /bin/n64 <rom> <clover_args>
           runs "glupen64" core
         - /bin/a26 <rom> <clover_args>
@@ -116,8 +123,6 @@ NES Mini port by madmonkey
 NES Mini shell integration by Cluster
 
 Various additions, tweaks and fixes by pcm720
-
-Cap32, fuse and mame2000 compiled and fixed by D_Skywalk
 
 RetroArch/libretro project: https://www.libretro.com
 Lakka project: www.lakka.tv
