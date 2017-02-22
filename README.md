@@ -12,6 +12,7 @@ And the following cores are available as additional modules (in core_modules fol
 - snes9x2010 (Super Famicom/Super Nintendo)
 - gambatte_libretro (Game Boy, Game Boy Color)
 - mgba (Game Boy Advance)
+- glupen64 (Nintendo 64)
 - genesis_plus_gx (Sega Master System, Genesis/Mega Drive, Game Gear)
 - stella (Atari 2600)
 - mednafen_pce_fast (PC Engine/Turbografx 16)
@@ -73,7 +74,7 @@ Executables and arguments for all available cores:
           runs "snes9x2010" core
         - /bin/n64 <rom> <clover_args>
           runs "glupen64" core
-		- /bin/a26 <rom> <clover_args>
+	- /bin/a26 <rom> <clover_args>
           runs "stella" core
         - /bin/pce <rom> <clover_args>
           runs "mednafen_pce_fast" core
@@ -114,5 +115,6 @@ Various additions, tweaks and fixes by pcm720
 Cap32, fuse and mame2000 compiled and fixed by D_Skywalk
 
 RetroArch/libretro project: https://www.libretro.com
+Lakka project: www.lakka.tv
 
 (c) 2017
