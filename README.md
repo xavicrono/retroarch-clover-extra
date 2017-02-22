@@ -74,7 +74,7 @@ Executables and arguments for all available cores:
           runs "snes9x2010" core
         - /bin/n64 <rom> <clover_args>
           runs "glupen64" core
-	- /bin/a26 <rom> <clover_args>
+        - /bin/a26 <rom> <clover_args>
           runs "stella" core
         - /bin/pce <rom> <clover_args>
           runs "mednafen_pce_fast" core
