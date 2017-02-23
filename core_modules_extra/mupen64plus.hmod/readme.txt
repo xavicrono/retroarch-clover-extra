@@ -3,7 +3,7 @@
 This module will add support for Nintendo 64 games to RetroArch
 
 Available executables and arguments:
-- /bin/n64 <rom> <clover_args>
+- /bin/n64p <rom> <clover_args>
   runs "mupen64plus" core
 
 Core by libretro
