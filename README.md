@@ -47,6 +47,7 @@ Please note:
 - To use Nestopia instead of FCEUmm, install use_nestopia.hmod module
 - To use PicoDrive for all Genesis/Mega Drive games instead of Genesis Plus GX, install use_picodrive.hmod module. Make sure that picodrive module is installed before installing use_picodrive!
 - To use SNES9x2005 for all SNES games instead of SNES9x2010, install use_snes9x2005.hmod module. Make sure that snes9x2005 module is installed before installing use_snes9x2005!
+- To use Mupen64Plus for all N64 games instead of GLupeN64, install use_mupen64plus.hmod module. Make sure that mupen64plus module is installed before installing use_mupen64plus!
 - You can re-enable bilinear filtering in RetroArch's settings (Settings —> Video —> Bilinear Filtering)
 
 ## Additional information
@@ -84,7 +85,11 @@ Executables and arguments for all available cores:
         - /bin/snes10 <rom> <clover_args>
           runs "snes9x2010" core if snes9x2005 is installed as a main core
         - /bin/n64 <rom> <clover_args>
-          runs "glupen64" core
+          runs "glupen64" core or "mupen64plus" core
+        - /bin/n64p <rom> <clover_args>
+          runs "mupen64plus" core
+        - /bin/n64g <rom> <clover_args>
+          runs "glupen64" core if mupen64plus is installed as a main core
         - /bin/a26 <rom> <clover_args>
           runs "stella" core
         - /bin/pce <rom> <clover_args>
