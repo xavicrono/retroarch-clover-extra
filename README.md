@@ -29,7 +29,9 @@ Extra RetroArch modules and modules created by other users (in core_modules_extr
 - mame2000 (various arcades machines), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
 - mame2003 (various arcades machines), provided by asper
 - mednafen_ngp (Neo Geo Pocket), provided by asper
-
+- gme (various game music formats), provided by asper
+- handy (Atari Lynx), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
+- pcsx_rearmed (Sony PlayStation), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
 
 ## How to use this
 
@@ -114,7 +116,14 @@ Executables and arguments for all available cores:
           runs "mame2003" core
         - /bin/ngp <rom> <clover_args>
           runs "mednafen_ngp" core
-
+        - /bin/ngc <rom> <clover_args>
+          runs "mednafen_ngp" core
+        - /bin/gme <rom> <clover_args>
+          runs "gme" core
+        - /bin/lnx <rom> <clover_args>
+          runs "handy" core
+        - /bin/pcsx <rom> <clover_args>
+          runs "pcsx_rearmed" core
 		  
 ## Known issues
 
