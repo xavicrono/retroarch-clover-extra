@@ -36,6 +36,7 @@ Extra RetroArch modules and modules created by other users (in core_modules_extr
 - fmsx (MSX, MSX 2), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
 - mednafen_vb (Virtual Boy), provided by asper
 - mednafen_wswan (WonderSwan, WonderSwan Color), provided by asper
+- nxengine (Cave Story), provided by asper
 
 ## How to use this
 
@@ -138,6 +139,8 @@ Executables and arguments for all available cores:
           runs "mednafen_wswan" core
         - /bin/wsc <rom> <clover_args>
           runs "mednafen_wswan" core
+        - /bin/nxengine <rom> <clover_args>
+          runs "nxengine" core
 		  
 ## Known issues
 
