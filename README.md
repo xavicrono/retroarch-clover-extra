@@ -37,6 +37,10 @@ Extra RetroArch modules and modules created by other users (in core_modules_extr
 - mednafen_vb (Virtual Boy), provided by asper
 - mednafen_wswan (WonderSwan, WonderSwan Color), provided by asper
 - nxengine (Cave Story), provided by asper
+- o2em (Odyssey2 / Videopac+), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
+- prosystem (Atari 7800), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
+- vecx (Vectrex), provided by asper
+- yabause (Sega Saturn), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
 
 ## How to use this
 
@@ -141,7 +145,15 @@ Executables and arguments for all available cores:
           runs "mednafen_wswan" core
         - /bin/nxengine <rom> <clover_args>
           runs "nxengine" core
-		  
+        - /bin/o2em <rom> <clover_args>
+          runs "o2em" core
+        - /bin/a78 <rom> <clover_args>
+          runs "prosystem" core
+        - /bin/vec <rom> <clover_args>
+          runs "vecx" core
+        - /bin/yabause <rom> <clover_args>
+          runs "yabause" core
+
 ## Known issues
 
 - Nintendo 64 and CP System II save-states are not working, battery backups work fine
