@@ -8,7 +8,7 @@ It can also run games for other consoles. This pack already contains the followi
 - fceumm (Famicom/Nintendo Entertainment System, many mappers, UNIF support)
 - nestopia (Famicom/Nintendo Entertainment System, Famicom Disk System)
 
-The following cores are available as additional modules (in core_modules folder):
+The following cores are available as additional modules (in core_modules / cores folder):
 - snes9x2010 (Super Famicom/Super Nintendo)
 - gambatte_libretro (Game Boy, Game Boy Color)
 - mgba (Game Boy Advance)
@@ -19,7 +19,7 @@ The following cores are available as additional modules (in core_modules folder)
 - fb_alpha and fb_alpha_cps2 (various arcade machines)
 - picodrive (Sega Master System, Genesis/Mega Drive, Game Gear, Sega 32X)
 
-Extra RetroArch modules and modules created by other users (in core_modules_extra folder):
+Extra RetroArch modules and modules created by other users (in core_modules_extra / extra_cores folder):
 - mupen64plus (Nintendo 64)
 - snes9x2002 (Super Famicom/Super Nintendo)
 - snes9x2005 (Super Famicom/Super Nintendo)
