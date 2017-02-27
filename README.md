@@ -32,7 +32,7 @@ Extra RetroArch modules and modules created by other users (in core_modules_extr
 - mednafen_ngp (Neo Geo Pocket), provided by asper
 - gme (various game music formats), provided by asper
 - handy (Atari Lynx), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
-- pcsx_rearmed (Sony PlayStation), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
+- pcsx_rearmed (Sony PlayStation), suggested by asper and provided by Jelmer (BIOS image required, consult module's readme.txt and libretro Wiki)
 - emux_chip8 (CHIP-8), provided by asper
 - fmsx (MSX, MSX 2), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
 - mednafen_vb (Virtual Boy), provided by asper
