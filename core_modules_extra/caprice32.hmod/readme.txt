@@ -8,7 +8,7 @@
  -  runs "cap32" core
  
  Core by libretro
- Module suggested and provided by 1lokolo1/nesito
+ Module compiled and fixed by D_Skywalk, suggested and provided by 1lokolo1/nesito
  Hakchi module system by madmonkey
  NES Mini shell integration by Cluster
  (c) 2016-2017

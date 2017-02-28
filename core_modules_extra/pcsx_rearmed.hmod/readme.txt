@@ -11,7 +11,7 @@ Available executables and arguments:
   runs "pcsx_rearmed" core
 
 Core by libretro
-Module suggested by asper and provided by Jelmer
+Module suggested by asper,  compiled and fixed by D_Skywalk and provided by Jelmer
 Hakchi module system by madmonkey
 NES Mini shell integration by Cluster
 (c) 2016-2017
