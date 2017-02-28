@@ -23,16 +23,16 @@ Extra RetroArch modules and modules created by other users (in core_modules_extr
 - mupen64plus (Nintendo 64)
 - snes9x2002 (Super Famicom/Super Nintendo)
 - snes9x2010 (Super Famicom/Super Nintendo) (savestates disabled due to some bug in the core)
-- caprice32 (Amstrad CPC), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
+- caprice32 (Amstrad CPC), fixed and built by D_Skywalk, provided by 1lokolo1/nesito
 - fbalpha2012_neogeo (Neo-Geo), provided by 1lokolo1/nesito
-- fuse (ZX Spectrum), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
+- fuse (ZX Spectrum), fixed and built by D_Skywalk, provided by 1lokolo1/nesito
 - dosbox (MS-DOS), provided by 1lokolo1/nesito  and asper
-- mame2000 (various arcades machines), compiled and fixed by D_Skywalk, provided by 1lokolo1/nesito
+- mame2000 (various arcades machines), fixed and built by D_Skywalk, provided by 1lokolo1/nesito
 - mame2003 (various arcades machines), provided by asper
 - mednafen_ngp (Neo Geo Pocket), provided by asper
 - gme (various game music formats), provided by asper
 - handy (Atari Lynx), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
-- pcsx_rearmed (Sony PlayStation), suggested by asper, compiled and fixed by D_Skywalk and provided by Jelmer (BIOS image required, consult module's readme.txt and libretro Wiki)
+- pcsx_rearmed (Sony PlayStation), suggested by asper, built by D_Skywalk and provided by Jelmer (BIOS image required, consult module's readme.txt and libretro Wiki)
 - emux_chip8 (CHIP-8), provided by asper
 - fmsx (MSX, MSX 2), provided by asper (BIOS image required, consult module's readme.txt and libretro Wiki)
 - mednafen_vb (Virtual Boy), provided by asper
