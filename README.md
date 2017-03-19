@@ -45,20 +45,29 @@ Extra RetroArch modules and modules created by other users (in core_modules_extr
 
 ## How to use this
 
-1. Go to "releases" tab and download the newest release.zip 
-2. Unpack release.zip anywhere you want
-3. Copy retroarch.hmod and the cores you want (.hmod files from cores and extra_cores folders) to user_mods directory of Hakchi2.
-4. Install the modules (all modules can be installed in one go) via Hakchi2's Modules menu.
-5. Add the games as usual
+If you are using hakchi2:
+1. Make sure that you are using hakchi2 version 2.14 or newer.
+2. Go to "releases" tab and download the newest retroarch_with_cores.zip.
+3. Drag-and-drop it on hakchi2 window.
+4. Press "OK" button and follow instructions.
 
-Please note:
-- To add RetroArch shortcut to NES Mini's shell, drag-and-drop CloverApp.zip to Hakchi2
+That's all. You can play near all NES games now as well as SNES, Genesis, N64, etc.
+
+### Important notes
+
+- To use RetroArch for any NES game, just add "--retroarch" to command line arguments. Use it if some of your NES games glitches with original NES Mini's emulator.
+- To open RetroArch settings menu press Select + Start in game.
+- To add RetroArch shortcut to NES Mini's shell, download and drag-and-drop CloverApp.zip to hakchi2.
+
+### Additional notes for expert users
+
+- If you need to specify NES core, use "--retroarch --core fceumm" to use FCEUmm for this game or "--retroarch --core nestopia" to use Nestopia. FCEUmm core will be used by default.
 - To make your own RetroArch modules, use the structure from libretro_core_template.zip. Use exisiting modules as a reference.
 - To add your own BIOS images for custom cores, use bios_template.zip (please read the readme.txt inside).
 - If the file extension of your game is not supported by Hakchi2, you may need to change the path in command line arguments (in Hakchi2's game options) to make it point to the corresponding core.
 - To load arcade games that come in the form of ZIP archives, you'll need to change /bin/zip in game's command line arguments to /bin/fba, /bin/mame2000, /bin/mame2003 or /bin/cps2 depending on the core needed for the game to run (look at "Additional Information" section for all avaiable /bin/<> commands). For some cores like Final Burn Alpha, BIOS image (e.g. neogeo.zip for Neo-Geo) must be in the game directory.
 - Since version 0.5, you'll need to upload neogeo.zip only once. Just put neogeo.zip to any Neo-Geo game you want, synchronize and launch it once for every other game to work automatically or just upload neogeo.zip to RA's system folder using BIOS template. You won't have to include neogeo.zip anymore unless you uninstall hakchi and decide to install it again.
-- To use RetroArch for any NES game, just add "--retroarch" to command line arguments. If you need to load the game with specific NES core, use "--retroarch --core fceumm" to use FCEUmm for this game or "--retroarch --core nestopia" to use Nestopia
+- If the file extension of your game is not supported by hakchi2, you may need to change the path in command line arguments (in Hakchi2's game options) to make it point to the corresponding core
 - To use Nestopia instead of FCEUmm, install use_nestopia.hmod module
 - To use PicoDrive for all Genesis/Mega Drive games instead of Genesis Plus GX, install use_picodrive.hmod module. Make sure that picodrive module is installed before installing use_picodrive!
 - To use SNES9x2005 for all SNES games instead of SNES9x2010, install use_snes9x2005.hmod module. Make sure that snes9x2005 module is installed before installing use_snes9x2005!
@@ -66,8 +75,6 @@ Please note:
 - To use Mupen64Plus for all N64 games instead of GLupeN64, install use_mupen64plus.hmod module. Make sure that mupen64plus module is installed before installing use_mupen64plus!
 - You can re-enable bilinear filtering in RetroArch's settings (Settings —> Video —> Bilinear Filtering)
 - If you want to use RetroArch's XMB UI instead of RGUI, install xmb_assets.hmod and change Menu Driver in Settings —> Driver —> Menu Driver to "xmb"
-
-## Additional information
 
 Executables and arguments for all available cores:
 
@@ -164,7 +171,6 @@ Executables and arguments for all available cores:
 
 - Nintendo 64 and CP System II save-states are not working, battery backups work fine
 - Default CRT filter is not working, scanlines shader added instead but it's not working with all systems.
-- It's recommended to turn your NES Mini off from shell, not during the game
 
 ## Credits
 
