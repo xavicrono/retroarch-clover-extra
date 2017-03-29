@@ -9,7 +9,7 @@ It can also run games for other consoles. This pack already contains the followi
 - nestopia (Famicom/Nintendo Entertainment System, Famicom Disk System)
 
 The following cores are available as additional modules (in core_modules / cores folder):
-- snes9x2005 (Super Famicom/Super Nintendo)
+- snes9x2010 (Super Famicom/Super Nintendo)
 - gambatte_libretro (Game Boy, Game Boy Color)
 - mgba (Game Boy Advance)
 - glupen64 (Nintendo 64)
@@ -22,7 +22,7 @@ The following cores are available as additional modules (in core_modules / cores
 Extra RetroArch modules and modules created by other users (in core_modules_extra folder):
 - mupen64plus (Nintendo 64)
 - snes9x2002 (Super Famicom/Super Nintendo)
-- snes9x2010 (Super Famicom/Super Nintendo) (savestates disabled due to some bug in the core)
+- snes9x2005 (Super Famicom/Super Nintendo)
 - caprice32 (Amstrad CPC), fixed and built by D_Skywalk, provided by 1lokolo1/nesito
 - fbalpha2012_neogeo (Neo-Geo), provided by 1lokolo1/nesito
 - fuse (ZX Spectrum), fixed and built by D_Skywalk, provided by 1lokolo1/nesito
@@ -59,6 +59,7 @@ That's all. You can play near all NES games now as well as SNES, Genesis, N64, e
 - To open RetroArch settings menu press Select + Start in game.
 - To add RetroArch shortcut to NES Mini's shell, download and drag-and-drop CloverApp.zip to hakchi2.
 - You can re-enable bilinear filtering (smoothing) in RetroArch's settings (Settings —> Video —> Bilinear Filtering)
+- Make sure that your FDS games have .fds extension (NOT .nes) if you want to run them with built-in emulator (kachikachi)
 
 ### Additional notes for expert users
 
@@ -102,19 +103,19 @@ Executables and arguments for all available cores:
         - /bin/32x <rom> <clover_args>
           runs "picodrive" core
         - /bin/snes <rom> <clover_args>
-          runs "snes9x2005" or "snes9x2010" core or "snes9x2002" core
+          runs "snes9x2010", "snes9x2005" or "snes9x2002" core
+        - /bin/snes10 <rom> <clover_args>
+          runs "snes9x2010" core
         - /bin/snes02 <rom> <clover_args>
           runs "snes9x2002" core if snes9x2005 or snes9x2010 is installed as a main core
         - /bin/snes05 <rom> <clover_args>
           runs "snes9x2005" core if snes9x2002 or snes9x2010 is installed as a main core
-        - /bin/snes10 <rom> <clover_args>
-          runs "snes9x2010" core if snes9x2002 or snes9x2005 is installed as a main core
         - /bin/n64 <rom> <clover_args>
           runs "glupen64" core or "mupen64plus" core
         - /bin/n64p <rom> <clover_args>
           runs "mupen64plus" core
         - /bin/n64g <rom> <clover_args>
-          runs "glupen64" core if mupen64plus is installed as a main core
+          runs "glupen64" core
         - /bin/a26 <rom> <clover_args>
           runs "stella" core
         - /bin/pce <rom> <clover_args>
