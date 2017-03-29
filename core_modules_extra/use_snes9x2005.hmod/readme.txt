@@ -6,8 +6,8 @@ Make sure that snes9x2005 module is installed before installing this.
 Available executables and arguments:
 - /bin/snes <rom> <clover_args>
   runs "snes9x2005" core
-- /bin/snes10 <rom> <clover_args>
-  runs "snes9x2010" core
+- /bin/snes05 <rom> <clover_args>
+  runs "snes9x2005" core
 
 Cores by libretro
 Module by pcm
