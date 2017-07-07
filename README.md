@@ -3,6 +3,7 @@
 This is a collection of hakchi modules to extend the capabilities of your RetroArch installation.
 
 Get RetroArch module from the main repository:
+
 https://github.com/ClusterM/retroarch-clover/releases
 
 The following modules are included:
@@ -37,7 +38,7 @@ If you are using hakchi2:
 3. Drag-and-drop it on hakchi2 window.
 4. Press "OK" button and follow instructions.
 
-### Important notes
+## Important notes
 - For general usage, consult README from the main repository:
 https://github.com/ClusterM/retroarch-clover
 - To use SNES9x2005 for all SNES games instead of SNES9x2010, install use_snes9x2005.hmod module. Make sure that snes9x2005 module is installed before installing use_snes9x2005!
@@ -108,6 +109,7 @@ Executables and arguments for all available cores:
 ## Credits
 
 RetroArch/libretro project: https://www.libretro.com
+
 Lakka project: www.lakka.tv
 
 (c) 2017
