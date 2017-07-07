@@ -104,7 +104,7 @@ Executables and arguments for all available cores:
 
 ## Known issues
 
-- For known issues, consult the main repository.
+- For known issues, see the main repository.
 
 ## Credits
 
